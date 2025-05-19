@@ -1,0 +1,49 @@
+<!-- File: public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedulo Lite</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Schedulo Lite</h1>
+            <p>Smart Session Booking System</p>
+        </header>
+        
+        <main>
+            <div class="status-message" id="statusMessage"></div>
+            
+            <div class="time-slots-container" id="timeSlotsContainer">
+                <!-- Time slots will be populated here dynamically -->
+                <div class="loading">Loading time slots...</div>
+            </div>
+            
+            <div class="booking-form" id="bookingForm">
+                <h2>Book a Session</h2>
+                <div class="form-group">
+                    <label for="nameInput">Your Name</label>
+                    <input type="text" id="nameInput" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="selectedSlot">Selected Time Slot</label>
+                    <div id="selectedSlot" class="selected-slot">Please select a time slot</div>
+                </div>
+                <div class="form-actions">
+                    <button id="bookButton" class="btn btn-primary" disabled>Book Session</button>
+                    <button id="cancelButton" class="btn btn-secondary" onclick="hideBookingForm()">Cancel</button>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>&copy; 2025 Schedulo Lite - Smart Session Booking System</p>
+        </footer>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
