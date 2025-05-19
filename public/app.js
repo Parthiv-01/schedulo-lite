@@ -1,5 +1,3 @@
-// File: public/app.js
-
 // Global variables
 let timeSlots = [];
 let selectedSlotId = null;
