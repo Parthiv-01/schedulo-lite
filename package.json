@@ -13,7 +13,7 @@
     "node",
     "express"
   ],
-  "author": "",
+  "author": "Parthiv Sadhukhan",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
