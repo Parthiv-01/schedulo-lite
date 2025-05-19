@@ -17,7 +17,8 @@ Deployed on
 
 ## Screenshots
 
-![Dashboard](https://drive.google.com/file/d/1zFBliFfeyStervWOP4BoT8vrbIM6XjWM/view?usp=sharing)
+![Dashboard](https://github.com/user-attachments/assets/a2088860-5510-47d8-bd9f-22400d824dab)
+
 
 
 ## Tech Stack
