@@ -19,6 +19,7 @@ Deployed on
 
 ![Dashboard](https://github.com/user-attachments/assets/a2088860-5510-47d8-bd9f-22400d824dab)
 
+![After Booking](https://github.com/user-attachments/assets/9a94e781-f0d9-43c1-9303-de2ff8cd4d89)
 
 
 ## Tech Stack
